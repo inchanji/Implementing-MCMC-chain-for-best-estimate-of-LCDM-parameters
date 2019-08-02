@@ -1,4 +1,4 @@
-# MCMC-chain
+# MCMC-chain $ \sum_{\forall i}{x_i^{2}} $
 
 # Choosing proposal density, $P_\text{prop} (\vec{p}|\vec{p}_\text{curr})$
 If one has an idea of the posterior, covariance matrix, and linearity of parameters, a typical choice is:
