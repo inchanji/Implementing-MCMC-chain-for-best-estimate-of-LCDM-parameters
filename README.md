@@ -1,10 +1,10 @@
-# MCMC-chain $ \sum_{\forall i}{x_i^{2}} $
+# MCMC-chain 
 
 # Choosing proposal density, $P_\text{prop} (\vec{p}|\vec{p}_\text{curr})$
 If one has an idea of the posterior, covariance matrix, and linearity of parameters, a typical choice is:
-$$\begin{align*}
+\begin{align*}
 \mathcal{P}_\text{prop}(\vec{p}|\vec{p}_\text{curr})\sim \mathcal{N}(\vec{p}_\text{curr}, g\Sigma)
-\end{align*}$$
+\end{align*}
 where $g$ is called "$g$-prior" which is tuned to get a good acceptance rate.
 
 1. Linear regression
