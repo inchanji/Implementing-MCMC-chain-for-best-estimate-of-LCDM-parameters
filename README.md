@@ -1,6 +1,6 @@
-# MCMC-chain\
+# MCMC-chain
 
-# Choosing proposal density, $\mathcal{P}_\text{prop}(\vec{p}|\vec{p}_\text{curr})$
+# Choosing proposal density, $P_\text{prop} (\vec{p}|\vec{p}_\text{curr})$
 If one has an idea of the posterior, covariance matrix, and linearity of parameters, a typical choice is:
 $$\begin{align*}
 \mathcal{P}_\text{prop}(\vec{p}|\vec{p}_\text{curr})\sim \mathcal{N}(\vec{p}_\text{curr}, g\Sigma)
