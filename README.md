@@ -1,4 +1,4 @@
-# MCMC-chain 
+# MCMC-chain  ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
 
 # Choosing proposal density, $P_\text{prop} (\vec{p}|\vec{p}_\text{curr})$
 If one has an idea of the posterior, covariance matrix, and linearity of parameters, a typical choice is:
