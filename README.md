@@ -14,9 +14,11 @@ The cosmic microwave background (CMB) is electromagnetic radiation as a remnant 
 
 
 The finite-dimensional distribution (hearafter f.d.d. data is discretely spaced in the units of pixel) of cosmic temperature follow a Gaussian random process. The observed data consist of: 
-\begin{aligned}
+
+$$
 \vec{\rm d}~({\rm =}~ d(\hat{n})) = T(\hat{n}) + \mathcal{E}(\hat{n}) 
-\end{aligned}
+$$
+
 where $\vec{\rm d}$(or d($\hat{n}$)) is data , T($\hat{n}$) $\sim (0,\Sigma^{TT}(\vec{p}))$ is model temperature, $\mathcal{E}$($\hat{n}$) $\sim (0,\Sigma^{\mathcal{EE}})$ is noise bias, and $\hat{n}$ is angular position vector. 
 
 Acutally, the temperature we observe is PSF-convolved one. Therefore, <br>
