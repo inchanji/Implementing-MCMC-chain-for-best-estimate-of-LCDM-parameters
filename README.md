@@ -11,27 +11,4 @@ The cosmic microwave background (CMB) is electromagnetic radiation as a remnant 
 > - **A_s**: curvature perturbations
 > - **n_s**: scalar spectral index.
 
-
-
-The finite-dimensional distribution (hearafter f.d.d. data is discretely spaced in the units of pixel) of cosmic temperature follow a Gaussian random process. The observed data consist of: 
-
-$$
-\vec{\rm d}~({\rm =}~ d(\hat{n})) = T(\hat{n}) + \mathcal{E}(\hat{n}) 
-$$
-
-where $\vec{\rm d}$(or d($\hat{n}$)) is data , T($\hat{n}$) $\sim (0,\Sigma^{TT}(\vec{p}))$ is model temperature, $\mathcal{E}$($\hat{n}$) $\sim (0,\Sigma^{\mathcal{EE}})$ is noise bias, and $\hat{n}$ is angular position vector. 
-
-Acutally, the temperature we observe is PSF-convolved one. Therefore, <br>
-\begin{aligned}
-&~d(\hat{n}) = \phi * T(\hat{n}) + \mathcal{E}(\hat{n}) ~ :{\rm general~expression}\\
-\Longleftrightarrow &~d_{lm} = (\phi * T)_{lm} + \mathcal{E}_{lm} ~~~ :{\rm expressed~in~spherical~harmonics~on~S}^2
-\end{aligned}              
-where $\phi$ is a Gaussian beam PSF on $S^2$.
-
-Dividing by the beam and renaming $d_{lm}~\&~\mathcal{E}_{lm}$ gives a general model for observation:
-\begin{aligned}
-d_{lm} = T_{lm} + \mathcal{E}_{lm} ~~~ {\rm for~}l={\rm 0,1,2,\cdots,~and~}m=-l,-l+1,\cdots,l-1,l
-\end{aligned}     
-where $E(T_{lm}\cdot\overline{T_{l'm'}})=\delta_{ll'}\delta_{mm'}C_l^{TT}$,
-$E(\mathcal{E}_{lm}\cdot\overline{\mathcal{E}_{l'm'}})=\delta_{ll'}\delta_{mm'}C_l^{\mathcal{EE}}
-= \delta_{ll'}\delta_{mm'}\sigma^2\exp\bigg(\frac{b^2}{8\ln 2}l(l+1)\bigg)$, $\sigma$ is addictive noise level, and $b$ is FWHM of the PSF.
+In this notebook, I will show how to sample the cosmological (LCDM) parameters using two MCMC methods.
